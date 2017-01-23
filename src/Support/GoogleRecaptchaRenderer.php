@@ -1,6 +1,6 @@
 <?php namespace WebEd\Plugins\Captcha\Support;
 
-class GoogleRecaptcha
+class GoogleRecaptchaRenderer
 {
     /**
      * @var array

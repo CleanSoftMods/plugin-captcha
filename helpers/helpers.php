@@ -2,7 +2,7 @@
 
 if (!function_exists('google_recaptcha')) {
     /**
-     * @return \WebEd\Plugins\Captcha\Support\GoogleRecaptcha
+     * @return \WebEd\Plugins\Captcha\Support\GoogleRecaptchaRenderer
      */
     function google_recaptcha()
     {

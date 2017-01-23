@@ -24,15 +24,6 @@ class ModuleProvider extends ServiceProvider
         $this->publishes([
             __DIR__ . '/../../resources/lang' => base_path('resources/lang/vendor/webed-captcha'),
         ], 'lang');
-        $this->publishes([
-            __DIR__ . '/../../database' => base_path('database'),
-        ], 'migrations');
-        $this->publishes([
-            __DIR__ . '/../../resources/assets' => resource_path('assets'),
-        ], 'webed-assets');
-        $this->publishes([
-            __DIR__ . '/../../resources/public' => public_path(),
-        ], 'webed-public-assets');
     }
 
     /**
@@ -52,8 +43,7 @@ class ModuleProvider extends ServiceProvider
             $this->mergeConfigFrom($row, $key);
         }
 
-        $this->app->register(RouteServiceProvider::class);
-        $this->app->register(RepositoryServiceProvider::class);
+        $this->app->register(ValidateServiceProvider::class);
         $this->app->register(BootstrapModuleServiceProvider::class);
     }
 }
