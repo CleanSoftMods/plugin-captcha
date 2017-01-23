@@ -1,0 +1,10 @@
+{
+    "alias": "webed-captcha",
+    "name": "WebEd captcha integration",
+    "author": "Tedozi Manson",
+    "description": "WebEd captcha integration",
+    "namespace": "WebEd\\Plugins\\Captcha",
+    "version": "1.0",
+    "autoload": "psr-4",
+    "require": {}
+}
