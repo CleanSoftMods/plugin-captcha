@@ -1,7 +1,7 @@
 <?php namespace WebEd\Plugins\Captcha\Facades;
 
 use Illuminate\Support\Facades\Facade;
-use WebEd\Plugins\Captcha\Support\GoogleRecaptchaRenderer;
+use WebEd\Plugins\Captcha\Support\Renderer\GoogleRecaptchaRenderer;
 
 class GoogleRecaptchaFacade extends Facade
 {

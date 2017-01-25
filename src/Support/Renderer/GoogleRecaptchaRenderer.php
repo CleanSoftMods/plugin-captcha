@@ -1,4 +1,4 @@
-<?php namespace WebEd\Plugins\Captcha\Support;
+<?php namespace WebEd\Plugins\Captcha\Support\Renderer;
 
 class GoogleRecaptchaRenderer
 {
