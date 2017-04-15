@@ -4,7 +4,7 @@
     "author": "Tedozi Manson",
     "description": "WebEd captcha integration",
     "namespace": "WebEd\\Plugins\\Captcha",
-    "version": "3.0",
+    "version": "3.1.1",
     "autoload": "psr-4",
     "require": {}
 }
