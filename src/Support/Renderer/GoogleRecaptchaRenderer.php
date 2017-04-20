@@ -21,9 +21,9 @@ class GoogleRecaptchaRenderer
 
     public function __construct()
     {
-        $this->siteKey = get_settings('google_captcha_site_key');
+        $this->siteKey = get_setting('google_captcha_site_key');
 
-        $this->secretKey = get_settings('google_captcha_secret_key');
+        $this->secretKey = get_setting('google_captcha_secret_key');
     }
 
     public function setLanguage($languageCode)

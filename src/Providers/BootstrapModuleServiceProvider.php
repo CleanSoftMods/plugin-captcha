@@ -41,7 +41,7 @@ class BootstrapModuleServiceProvider extends ServiceProvider
             ], function () {
                 return [
                     'google_captcha_site_key',
-                    get_settings('google_captcha_site_key'),
+                    get_setting('google_captcha_site_key'),
                     ['class' => 'form-control']
                 ];
             })
@@ -54,7 +54,7 @@ class BootstrapModuleServiceProvider extends ServiceProvider
             ], function () {
                 return [
                     'google_captcha_secret_key',
-                    get_settings('google_captcha_secret_key'),
+                    get_setting('google_captcha_secret_key'),
                     ['class' => 'form-control']
                 ];
             });

@@ -13,7 +13,7 @@ class GoogleRecaptchaValidator extends AbstractCaptchaValidator
     {
         parent::__construct();
 
-        $this->secretKey = get_settings('google_captcha_secret_key');
+        $this->secretKey = get_setting('google_captcha_secret_key');
     }
 
     /**
